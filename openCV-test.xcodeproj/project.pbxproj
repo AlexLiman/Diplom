@@ -23,8 +23,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA0490611CE29DF800B439DF /* Контурное-рисование-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Контурное-рисование-1.png"; sourceTree = "<group>"; };
+		FA0490621CE29E0900B439DF /* football ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "football ball.png"; sourceTree = "<group>"; };
 		FA424FF41CDE615A00BCB41D /* openCV-test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "openCV-test"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA424FF71CDE615A00BCB41D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FA42503E1CDE696C00BCB41D /* pro3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pro3.jpg; sourceTree = "<group>"; };
+		FAF8C9F11CE25FD800CC0891 /* 46539.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 46539.jpeg; sourceTree = "<group>"; };
+		FAF8C9F21CE2615900CC0891 /* 4_17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4_17.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,11 @@
 		FA424FF61CDE615A00BCB41D /* openCV-test */ = {
 			isa = PBXGroup;
 			children = (
+				FA0490621CE29E0900B439DF /* football ball.png */,
+				FA0490611CE29DF800B439DF /* Контурное-рисование-1.png */,
+				FAF8C9F21CE2615900CC0891 /* 4_17.jpg */,
+				FAF8C9F11CE25FD800CC0891 /* 46539.jpeg */,
+				FA42503E1CDE696C00BCB41D /* pro3.jpg */,
 				FA424FF71CDE615A00BCB41D /* main.cpp */,
 			);
 			path = "openCV-test";
@@ -207,6 +217,27 @@
 		FA424FFC1CDE615A00BCB41D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -214,6 +245,27 @@
 		FA424FFD1CDE615A00BCB41D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -237,6 +289,7 @@
 				FA424FFD1CDE615A00BCB41D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
