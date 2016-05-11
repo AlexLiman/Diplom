@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		FA0490611CE29DF800B439DF /* Контурное-рисование-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Контурное-рисование-1.png"; sourceTree = "<group>"; };
 		FA0490621CE29E0900B439DF /* football ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "football ball.png"; sourceTree = "<group>"; };
+		FA0490631CE2FA3000B439DF /* shape.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shape.JPG; sourceTree = "<group>"; };
 		FA424FF41CDE615A00BCB41D /* openCV-test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "openCV-test"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA424FF71CDE615A00BCB41D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FA42503E1CDE696C00BCB41D /* pro3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pro3.jpg; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 		FA424FF61CDE615A00BCB41D /* openCV-test */ = {
 			isa = PBXGroup;
 			children = (
+				FA0490631CE2FA3000B439DF /* shape.JPG */,
 				FA0490621CE29E0900B439DF /* football ball.png */,
 				FA0490611CE29DF800B439DF /* Контурное-рисование-1.png */,
 				FAF8C9F21CE2615900CC0891 /* 4_17.jpg */,
